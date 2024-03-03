@@ -1,0 +1,225 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color:#0a446c;
+}
+
+/* header and footer */
+.header-footer {
+  background-color:#0F5E8E;
+  color: #fff;
+  height: 5%;
+}
+
+/* header */
+header {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+/* header navigation bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+/* buttons inside the header navigation bar */
+button {
+  background-color: transparent;
+  color: inherit;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+button:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* all sections */
+section {
+  text-align: center;
+}
+
+/* home page welcome section */
+#welcome-section {
+  color: #DAEEF4;
+  padding: 7.5% 20% 0 20%;
+  height: 60%;
+  font-size: larger;
+}
+
+/* home page developer section */
+#developer-section {
+  color: #DAEEF4;
+  background-color:#296a9b;
+  height: 40%;
+  padding: 2.5% 20% 0% 20%;
+  font-size: larger;
+}
+
+
+/* p5.js canvas */
+canvas {
+  display: block;
+}
+
+/* simulation webpage sliders */
+.sliders_simulation {
+  background-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  width: 50%;
+  height: 15px;
+  background: #daeef480;
+  border-radius: 3px;
+  opacity: 0.1;
+}
+.sliders_simulation::-webkit-slider-thumb {
+  opacity: 1;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #DAEEF4;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.sliders_simulation:hover {
+  opacity: 0.7;
+}
+
+/* text_elements used by simulation and gas law webpages */
+.text_elements {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10;
+  color: #DAEEF4;
+}
+
+/* gas laws webpage sliders */
+.sliders {
+  background-color: transparent;
+  
+  /* Removes some defaults */
+  -webkit-appearance: none;
+
+  appearance: none;
+  outline: none;
+  width: 50%;
+  height: 15px;
+  background: #304866;
+  border-radius: 3px;
+  opacity: 0.5;
+}
+.sliders::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #297a74;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.sliders:hover {
+  opacity: 1;
+}
+
+/* Applied to all gas law webpage content section*/
+.law {
+  height: 500px;
+  background-color: #0a446c;
+  display: flex;
+  align-items: center; 
+}
+.law span {
+  margin-right: 0px;
+}
+
+/* applied to all the gas law webpage content section text elements */
+#law-text {
+  font-style: normal;
+  font-weight: normal;
+  color: #DAEEF4;
+  padding: 0 2.5%;
+}
+/* gas laws webpage intro section */
+#introduction-section {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2.5%;
+}
+/* gas laws webpage last section */
+#last-section {
+  margin-bottom: 2.5%;
+  height: 300px;
+  display: flex;
+  text-align: center; 
+}
+/* used in gas laws webpage */
+.Separators {
+  width: 95%;
+  color:  #DAEEF4;
+  margin-top: 2.5%;
+}
+/* applied to gas law webpage simulations */
+iframe {
+  width: 70vw;
+  height: 500px;
+  border:none;
+}
+
+
+/* additional information webpage */
+#reference-section {
+  color: #DAEEF4;
+  background-color:#39729e;
+  padding: 7.5% 20% 0 20%;
+  height: 75%;
+  font-size: larger;
+}
+/* additional information webpage */
+#thank-you-section {
+  color: #DAEEF4;
+  padding: 5% 0 5% 0;
+  height: 15%;
+  font-size: larger;
+}
+
+/* additional information webpage links */
+a {
+  color: rgb(151, 192, 231); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(76, 162, 242);
+}
+
+
+
+
