@@ -98,7 +98,7 @@ function draw_interface() {
   slider_width.value.text.html("Width: " + str(slider_width.slider.value()) + " nm");
   slider_height.value.text.html("Height: " + str(slider_height.slider.value()) + " nm");
   // Refresh other text elements
-  volume_text.text.html("Volume of the container: " + str(Math.round(slider_height.slider.value() * slider_width.slider.value() * 0.004)) + " nm^3");
+  volume_text.text.html("Volume of the container: " + str(Math.round(slider_height.slider.value() * slider_width.slider.value() * space_depth)) + " nm^3");
   depth_text.text.html("Depth: " + str(space_depth) + " nm")
   pressure_text.text.html("Pressure: " + str(pressure / 1000) + " KPa");
 }
