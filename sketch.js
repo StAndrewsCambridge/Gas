@@ -179,8 +179,8 @@ function setup_interface() {
   // Particle mass
   slider_particle_mass = new Slider(10, 50, 1, 50, relative_particle_mass, 1);
   // space dimensions
-  slider_width = new Slider(10, 70, 10, space_width, space_width, 0.2);
-  slider_height = new Slider(10, 90, 10, space_height, space_height, 0.2);
+  slider_width = new Slider(10, 70, 100, space_width, space_width, 0.2);
+  slider_height = new Slider(10, 90, 100, space_height, space_height, 0.2);
   depth_text = new Text(windowWidth * 0.5 + 150, 50, 'h4')
   // space volume text
   volume_text = new Text(windowWidth * 0.5 + 150, 70, 'h4');
